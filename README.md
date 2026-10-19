@@ -5,6 +5,7 @@
 这是社区主题工具，与 OpenAI、《名侦探柯南》权利方无隶属或合作关系。不会修改 Codex 安装包。
 
 这是软件启动的动画效果
+<p align="center">
 <img width="400" height="225" alt="startup" src="https://github.com/user-attachments/assets/0ac472c1-45a6-44a6-bad8-4d9f0b19c4df" />
 
 这是壁纸的效果
