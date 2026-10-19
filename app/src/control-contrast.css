@@ -1,0 +1,92 @@
+/* Neutral controls must follow the dark wallpaper, even with native light appearance. */
+html[data-dream-skin="active"],
+html[data-dream-skin="active"] :is([role="menu"], [role="listbox"], [role="dialog"], [data-ds-part="dialog"]) {
+  --app-color-background-control: #12243d !important;
+  --color-background-control-opaque: #12243d !important;
+  --color-background-primary-soft: #12243d !important;
+  --color-background-primary-soft-alpha: #12243d !important;
+  --color-background-primary-soft-hover: #1b3555 !important;
+  --color-background-primary-soft-active: #274766 !important;
+  --color-background-primary-ghost-hover: #1b3555 !important;
+  --color-background-primary-ghost-active: #274766 !important;
+  --color-background-secondary-soft: #12243d !important;
+  --color-background-secondary-solid: #12243d !important;
+  --color-background-secondary-solid-hover: #1b3555 !important;
+  --color-background-secondary-solid-active: #274766 !important;
+  --color-background-mode-toggle-track: #0c1c31 !important;
+  --color-background-mode-toggle-selected: #283b68 !important;
+  --color-text-mode-toggle-primary: #eff5ff !important;
+  --color-text-mode-toggle-inactive: #c4d2e4 !important;
+  --color-text-mode-toggle-accent: #ff8391 !important;
+  --color-border-mode-toggle-selected: #45617f !important;
+  --segmented-control-background: #0c1c31 !important;
+  --color-background-segmented-form-track: #0c1c31 !important;
+  --color-background-segmented-form-selected: #283b68 !important;
+  --color-background-segmented-selected: #283b68 !important;
+  --color-background-segmented-selected-hover: #354d7d !important;
+  --app-color-background-elevated-primary: #102139 !important;
+  --app-color-background-elevated-primary-opaque: #102139 !important;
+  --app-color-background-elevated-secondary: #12243d !important;
+  --app-color-background-elevated-secondary-opaque: #12243d !important;
+  --app-color-background-elevated-tertiary-opaque: #172d49 !important;
+  --color-background-tooltip-classic: #102139 !important;
+  --color-background-tooltip: #102139 !important;
+  --tooltip-background-color: #102139 !important;
+  --color-text-tooltip: #f4f8ff !important;
+  --color-text-tooltip-classic: #f4f8ff !important;
+  --tooltip-text-color: #f4f8ff !important;
+  --color-text-tooltip-secondary: #c5d4e8 !important;
+  --color-text-tooltip-description: #c5d4e8 !important;
+  --color-text-tooltip-tertiary: #b4c8df !important;
+  --color-background-tooltip-shortcut: #243e5f !important;
+  --tooltip-shortcut-background-color: #243e5f !important;
+  --color-text-tooltip-shortcut: #e0ecff !important;
+  --color-border-tooltip: #6286ad !important;
+  --color-border-tooltip-classic: #6286ad !important;
+  --tooltip-border-color: #6286ad !important;
+  --tooltip-box-shadow: 0 8px 24px rgba(0, 8, 20, .65) !important;
+  --shadow-tooltip: 0 8px 24px rgba(0, 8, 20, .65) !important;
+  --color-text-tooltip-info: #8dd9ff !important;
+  --tooltip-text-info-color: #8dd9ff !important;
+  --color-text-tooltip-warning: #ffd58a !important;
+  --tooltip-text-warning-color: #ffd58a !important;
+  --color-text-tooltip-success: #91e5bd !important;
+  --tooltip-text-success-color: #91e5bd !important;
+  --color-text-tooltip-danger: #ff9ea7 !important;
+  --tooltip-text-danger-color: #ff9ea7 !important;
+  --color-background-callout-surface: #102139 !important;
+  --color-text-primary: #eff5ff !important;
+  --color-text-secondary: #bfcee2 !important;
+  --color-text-tertiary: #aabbd1 !important;
+  --color-text-secondary-solid: #eff5ff !important;
+  --color-border-control: #45617f !important;
+  --color-ring-primary: #74c3ed !important;
+}
+html[data-dream-skin="active"] :is(select, button[role="combobox"], button[aria-haspopup="listbox"]) {
+  background-color: #12243d !important;
+  color: #eff5ff !important;
+  border-color: #45617f !important;
+}
+html[data-dream-skin="active"] :is(select, button[role="combobox"], button[aria-haspopup="listbox"]):not(:disabled):not([aria-disabled="true"]):hover {
+  background-color: #1b3555 !important;
+}
+html[data-dream-skin="active"] :is(select, button[role="combobox"], button[aria-haspopup="listbox"], [role="tab"]):focus-visible {
+  outline: 2px solid #74c3ed !important;
+  outline-offset: 2px !important;
+}
+html[data-dream-skin="active"] :is([role="menu"], [role="listbox"]) {
+  background-color: #102139 !important;
+  color: #eff5ff !important;
+  border-color: #45617f !important;
+}
+html[data-dream-skin="active"] :is([role="option"], [role="menuitem"], [role="menuitemradio"], [role="menuitemcheckbox"])[data-highlighted] {
+  background-color: #1b3555 !important;
+}
+html[data-dream-skin="active"] :is([role="option"][aria-selected="true"], [role="tab"][aria-selected="true"], [role="menuitemradio"][aria-checked="true"], [role="menuitemcheckbox"][aria-checked="true"]) {
+  background-color: #283b68 !important;
+  color: #eff5ff !important;
+}
+html[data-dream-skin="active"] :is(select, button[role="combobox"], button[aria-haspopup="listbox"]):is(:disabled, [aria-disabled="true"]) {
+  background-color: #142034 !important;
+  color: #9eafc6 !important;
+}

@@ -1,0 +1,59 @@
+{
+  "repository": "https://github.com/CCDawn/Codex-Dynamic-Skin",
+  "commit": "5a0e74043b63ed9518ab37cdcf6865340a57006c",
+  "version": "1.7.3",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "0e8f0b5cc9f0d8103079fa6e4caf6955ba85ef7e2a7da8683e755df361382e4c"
+    },
+    {
+      "path": "assets/compat-profile-client.mjs",
+      "sha256": "9cf67b805cd81d2c5d0e77bfe23abaef4a2831c2f0aca20159a49cbde721d6e3"
+    },
+    {
+      "path": "assets/dream-skin.css",
+      "sha256": "78f33c79448ef9ed6a560a490411952111fedf1db0f877673a33b2f6ca1ac30c"
+    },
+    {
+      "path": "assets/renderer-inject.js",
+      "sha256": "63c0312b6f2ef3a5fb17f1551f79a76e7a4fbcb301dc3da6fd4dabc0b3f02461"
+    },
+    {
+      "path": "assets/safe-css-policy.json",
+      "sha256": "c784dd3a16d71395fca0b2695047395dc6f951f44df962284976faeb0b3ea551"
+    },
+    {
+      "path": "assets/safe-css-validator.mjs",
+      "sha256": "98a626655a4167ba0bbbff5eab96e78de7a5a74371e4a4ff6d8ac15211e5b24e"
+    },
+    {
+      "path": "assets/selectors.json",
+      "sha256": "939217a45f6502b9939a23f8eb6d1e766d306a94f462adfe38d9d50d0c191873"
+    },
+    {
+      "path": "assets/theme-package-validator.mjs",
+      "sha256": "8f249d726367c383d8c5894890e2b6d1c3b56a7282d7441a80cfb6470955b5f8"
+    },
+    {
+      "path": "assets/theme-preferences.mjs",
+      "sha256": "ca6ecbd2337e9cc471bfd1c62b7b84c975670a5a5c6adcb4214a4dda52f2c326"
+    },
+    {
+      "path": "scripts/common-windows.ps1",
+      "sha256": "a6ea8e59633943ec49f2d41061882e84a7b2255c4b442944d55fb0dd36914fc9"
+    },
+    {
+      "path": "scripts/config-utf8.ps1",
+      "sha256": "95170e1deccf31cd49f366d29f6b922e6ca9b3259ed8f1bd38e4747fda264ee4"
+    },
+    {
+      "path": "scripts/image-metadata.mjs",
+      "sha256": "4ec6d1794a2ba58e3733bcab74723f4e2e061ad8d4e7bbc8664693d4aef09cb4"
+    },
+    {
+      "path": "scripts/injector.mjs",
+      "sha256": "fd70bf7e2a234f3f78ea58a7e906702598fd0b8382988feab3ff697522ac94b6"
+    }
+  ]
+}
