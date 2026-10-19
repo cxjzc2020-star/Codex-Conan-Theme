@@ -11,6 +11,12 @@
 这是壁纸的效果
 <img width="2420" height="1489" alt="b3b6362cda2c9fdbbab6790d9ffad680" src="https://github.com/user-attachments/assets/20d863af-8f79-40ff-b6b8-270ce131ae53" />
 
+## 下载
+
+👉 [下载 Windows 使用包 v1.0.0](https://github.com/cxjzc2020-star/Codex-Conan-Theme/releases/download/v1.0.0/Codex-Conan-Theme-v1.0.0-Windows.zip)
+
+下载后请完整解压，再运行“启用主题.cmd”。
+
 ## 使用
 
 需要 Windows 10/11 x64、Microsoft Store 版 Codex、Node.js 22 或更新版本。启用器会优先寻找本机已有的 Node；缺少时请从 [Node.js 官网](https://nodejs.org/) 安装受支持版本。不需要管理员权限、Python、FFmpeg 或 npm install。
