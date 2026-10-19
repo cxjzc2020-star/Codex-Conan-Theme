@@ -4,6 +4,9 @@
 
 这是社区主题工具，与 OpenAI、《名侦探柯南》权利方无隶属或合作关系。不会修改 Codex 安装包。
 
+<img width="2420" height="1489" alt="b3b6362cda2c9fdbbab6790d9ffad680" src="https://github.com/user-attachments/assets/20d863af-8f79-40ff-b6b8-270ce131ae53" />
+
+
 ## 使用
 
 需要 Windows 10/11 x64、Microsoft Store 版 Codex、Node.js 22 或更新版本。启用器会优先寻找本机已有的 Node；缺少时请从 [Node.js 官网](https://nodejs.org/) 安装受支持版本。不需要管理员权限、Python、FFmpeg 或 npm install。
