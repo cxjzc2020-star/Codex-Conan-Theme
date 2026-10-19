@@ -17,7 +17,7 @@
 
 首次使用独立界面配置可能需要重新登录。推荐在 Codex 外观设置里选择深色，以匹配原生标题栏与主题。主题运行需要本地调试端口，该端口只监听本机。
 
-**恢复：**双击 `恢复默认.cmd`。它会停止主题注入，恢复启用前的快捷方式，保留账号、聊天、项目、插件和个人设置。后台任务不会被强制结束；任务完成后通过“文件 → 退出”，再正常打开 Codex，完成恢复。恢复是撤销本项目的变更，不是重置或删除 Codex 数据。
+恢复：双击 `恢复默认.cmd`。它会停止主题注入，恢复启用前的快捷方式，保留账号、聊天、项目、插件和个人设置。后台任务不会被强制结束；任务完成后通过“文件 → 退出”，再正常打开 Codex，完成恢复。恢复是撤销本项目的变更，不是重置或删除 Codex 数据。
 
 ## 启动效果
 
@@ -33,11 +33,11 @@ Windows 使用包中运行 `app/ConanLauncher.exe --settings`，或双击该文�
 
 - 开场：MP4 / GIF，默认静音，Esc 跳过。
 - 壁纸：PNG / JPG / WebP，或 MP4 / WebM 动态壁纸。
-- **网络兼容默认关闭。**仅在使用本机代理且首次聊天反复重连时，在设置窗口勾选“网络兼容”。它只向本次 Codex 子进程传递已启用的本机代理，不更改系统代理、证书或账号配置。完全退出后重启生效。
+- 网络兼容默认关闭。仅在使用本机代理且首次聊天反复重连时，在设置窗口勾选“网络兼容”。它只向本次 Codex 子进程传递已启用的本机代理，不更改系统代理、证书或账号配置。完全退出后重启生效。
 
 设置关闭窗口时自动保存。旧安装会保留已验证的网络兼容行为。更换壁纸后完全退出再打开。停止使用前先恢复默认，再移动或删除安装目录。
 
-## 发布包与源码
+## 发布包
 
 Windows 使用包的顶层只有两个操作入口、说明和许可证，内部文件集中在 `app/`：
 
@@ -50,19 +50,6 @@ Codex-Conan-Theme-v1.0.0-Windows/
 ├─ docs/FAQ.md
 └─ app/                 # 启动程序、脚本、主题引擎与素材
 ```
-
-GitHub 源码目录保留 `src/`、`scripts/`、`tests/`、`vendor/`、`media/` 和开发文档；没有第三方 npm 依赖。源码版运行启用脚本时会在缺少 EXE 的情况下自动使用 Windows 自带 .NET Framework 编译器构建。
-
-```powershell
-# 基础验证
-powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File scripts/Verify.ps1
-# 在装有 Codex 的 Windows 上验证启用/恢复，不改真实快捷方式
-powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File tests/Test-Manage.ps1
-# 构建 Windows 使用包及 GitHub 源码包
-powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File scripts/Build-Release.ps1
-```
-
-构建结果在 `dist/`，不会被提交到 Git。`.github/workflows/check.yml` 提供基础自动检查；真实 Codex 集成检查需要本机安装应用。[架构](docs/ARCHITECTURE.md) · [验证记录](docs/TESTING.md) · [发布流程](docs/RELEASING.md)
 
 ## 配置与授权
 
