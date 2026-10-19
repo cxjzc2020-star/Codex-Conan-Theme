@@ -4,12 +4,10 @@
 
 这是社区主题工具，与 OpenAI、《名侦探柯南》权利方无隶属或合作关系。不会修改 Codex 安装包。
 
-![Uploading startup.gif…]()
+<img width="400" height="225" alt="startup" src="https://github.com/user-attachments/assets/0ac472c1-45a6-44a6-bad8-4d9f0b19c4df" />
 
 
 <img width="2420" height="1489" alt="b3b6362cda2c9fdbbab6790d9ffad680" src="https://github.com/user-attachments/assets/20d863af-8f79-40ff-b6b8-270ce131ae53" />
-
-
 
 ## 使用
 
