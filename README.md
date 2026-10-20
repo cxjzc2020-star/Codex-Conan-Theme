@@ -6,7 +6,8 @@
 
 这是软件启动的动画效果
 <p align="center">
-<img width="400" height="225" alt="startup" src="https://github.com/user-attachments/assets/0ac472c1-45a6-44a6-bad8-4d9f0b19c4df" />
+<img width="720" height="405" alt="Video_Project" src="https://github.com/user-attachments/assets/224b43a5-0ef8-4b85-85e2-8f341849d4cd" />
+
 
 这是壁纸的效果
 <img width="2420" height="1489" alt="b3b6362cda2c9fdbbab6790d9ffad680" src="https://github.com/user-attachments/assets/20d863af-8f79-40ff-b6b8-270ce131ae53" />
